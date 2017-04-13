@@ -11,5 +11,13 @@
  *                   */
 
 const rockPaperScissors = () => {
-	// TODO: your solution here
+	let arr = [];
+	const options = ["rock", "paper"];
+	let prefix = options[0];
+	arr.push([arr[0], arr[0]]);
+	return arr;
 };
+
+rockPaperScissors();
+console.log('rockPaperScissors();: ', rockPaperScissors());
+
