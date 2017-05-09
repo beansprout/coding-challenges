@@ -1,1 +1,0 @@
-const fizzBuzz = require('./fizzBuzz');
