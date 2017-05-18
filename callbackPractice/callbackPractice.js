@@ -1,3 +1,4 @@
+
 /*  For today's coding challenge your job is to write functions
  *  so that each function call works.
  *
@@ -82,22 +83,28 @@ contains(foods, 'ribeye', (result) => {
 // Write a function called removeDuplicates that removes all duplicate values from the given array.
 // Pass the array to the callback function.  Do not mutate the original array.
 
-const removeDuplicates = (arr, cb) => {
-  cb(_.uniq(arr));
-};
+// const removeDuplicates = (arr, cb) => {
+//   cb(_.uniq(arr));
+// };
 
-removeDuplicates(foods, (uniqueFoods) => {
-  console.log(`foods with duplicates removed: ${uniqueFoods}`);
-});
+//put everything into an obj:
+
+// removeDuplicates(foods, (uniqueFoods) => {
+//   console.log(`foods with duplicates removed: ${uniqueFoods}`);
+// });
 
 // Write a function called forEach that iterates over the
-//provided array and passes the value and index into the callback.
+// provided array and passes the value and index into the callback.
+
 
 const forEach = (arr, cb) => {
-  cb(arr);
+  for (let i = 0; i < arr.length; i++) {
+    cb(arr[i], i);
+  }
 };
 
 forEach(foods, (value, index) => {
   console.log(`${value} is at index ${index}.`);
 });
+
 

@@ -8,10 +8,14 @@
  * Run your unit tests with the command `npm test` from inside of this folder.
  */
 const fizzBuzz = require('./fizzBuzz');
-test('Return \'fizz\' if num is divisible by 3 with no remainder.'), () => {
-  const pass =
-  expect(fizzBuzz(num % 3 === 0))toBe('fizz');
-  };
-  })
+
+describe('fizzBuzz(num)', () => {
+  it('should return "fizz" if num is divisable by 3 with no remainder'),
+     expect(fizzBuzz(21).toBe('fizz'));
 });
 
+const sum = require('./jesttest');
+
+test('adds 1 + 2  equals 3', () => {
+  expect(sum(1,2)).toBe(3);
+});
