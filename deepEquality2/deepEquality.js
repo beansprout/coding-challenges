@@ -8,6 +8,7 @@
   * deepEquals([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]); // true
   * deepEquals([1, 2, 3, 4, 5],[1, 3, 4, 5, 6]); // false
   */
+<<<<<<< HEAD
 
 const deepEquals = (arr1, arr2) => {
       if (arr1.length !== arr2.length) {
@@ -21,3 +22,5 @@ const deepEquals = (arr1, arr2) => {
       break;
   }
 }
+=======
+>>>>>>> 86c8ff3660125eeb4d6c60c4a286033f19486407
