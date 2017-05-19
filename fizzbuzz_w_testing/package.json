@@ -2,7 +2,7 @@
   "name": "testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "jest"
   },
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "jest-cli": "^20.0.1"
   }
 }

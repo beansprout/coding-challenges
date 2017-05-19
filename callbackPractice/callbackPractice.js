@@ -83,15 +83,16 @@ contains(foods, 'ribeye', (result) => {
 // Write a function called removeDuplicates that removes all duplicate values from the given array.
 // Pass the array to the callback function.  Do not mutate the original array.
 
-// const removeDuplicates = (arr, cb) => {
-//   cb(_.uniq(arr));
-// };
+const removeDuplicates = (arr, cb) => {
+  // unique foods -> array.filter(duplicates)
 
-//put everything into an obj:
+}
 
-// removeDuplicates(foods, (uniqueFoods) => {
-//   console.log(`foods with duplicates removed: ${uniqueFoods}`);
-// });
+// put everything into an obj:
+
+removeDuplicates(foods, (uniqueFoods) => {
+  console.log(`foods with duplicates removed: ${uniqueFoods}`);
+});
 
 // Write a function called forEach that iterates over the
 // provided array and passes the value and index into the callback.
