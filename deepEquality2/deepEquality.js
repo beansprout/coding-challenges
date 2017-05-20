@@ -8,19 +8,29 @@
   * deepEquals([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]); // true
   * deepEquals([1, 2, 3, 4, 5],[1, 3, 4, 5, 6]); // false
   */
-<<<<<<< HEAD
+// callback function
+const checkForNestedArrays = (arr) => {
+  for newArr = arr;
+
+}
 
 const deepEquals = (arr1, arr2) => {
-      if (arr1.length !== arr2.length) {
-        return false;
-      }
-      // test for type of elements
-      // sort the arrays and test if they match element for element
-
-      ])
-    default:
-      break;
+  if (arr1 !== arr2) {
+    if (arr1.length !== arr2.length) {
+      return false;
+    }
+    if (typeof arr1 !== typeof arr2) {
+      return false
+    }
+    if (arr1.sort() === arr2.sort()) {
+      return true
+    }
   }
+  return true;
 }
-=======
->>>>>>> 86c8ff3660125eeb4d6c60c4a286033f19486407
+      // test for type of elements
+      // sort the arrays and
+      // test if they match element for element
+    const a =
+    const b =
+console.log(deepEquals(a, b));
