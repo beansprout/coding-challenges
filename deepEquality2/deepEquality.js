@@ -10,8 +10,8 @@
   */
 // callback function
 const checkForNestedArrays = (arr) => {
-  for newArr = arr;
-
+  let newArr = arr;
+  //
 }
 
 const deepEquals = (arr1, arr2) => {
@@ -20,17 +20,22 @@ const deepEquals = (arr1, arr2) => {
       return false;
     }
     if (typeof arr1 !== typeof arr2) {
-      return false
+      return false;
     }
     if (arr1.sort() === arr2.sort()) {
+      console.log('sort ===');
       return true
     }
+    if (arr1 === arr2) {
+      console.log( '===' );
+      return true;
+    }
   }
-  return true;
+  return console.log('Dunno');
 }
       // test for type of elements
       // sort the arrays and
       // test if they match element for element
-    const a =
-    const b =
+    const a = [0, 1];
+    const b = [0, -1];
 console.log(deepEquals(a, b));
