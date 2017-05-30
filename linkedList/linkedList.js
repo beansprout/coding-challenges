@@ -1,9 +1,11 @@
 /*
  * Implement a linked list using an ES6 class.
- * 
  * Your linked list should have methods called "addToTail", "removeHead", and "contains."
- *
  */
+
+
+
+
 
 // const list = new LinkedList();
 // list.tail;						// returns null

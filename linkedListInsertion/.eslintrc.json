@@ -11,6 +11,8 @@
       "linebreak-style": 0,
       "consistent-return": 0,
       "no-useless-return": 0,
-      "no-return-assign": 0
+      "no-return-assign": 0,
+       // disable rules from base configurations
+        "no-console": "off"
     }
 }
