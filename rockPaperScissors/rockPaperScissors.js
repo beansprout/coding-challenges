@@ -19,5 +19,5 @@ const rockPaperScissors = () => {
 };
 
 rockPaperScissors();
-console.log('rockPaperScissors();: ', rockPaperScissors());
+console.log('rockPaperScissors()', rockPaperScissors());
 
