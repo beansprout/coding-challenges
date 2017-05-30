@@ -5,3 +5,8 @@
  * Note: Spaces in URLs are converted into %20.
  *
  */
+const replaceSpaces = (str) => {
+  return encodeURI(str);
+}
+
+console.log(replaceSpaces("good times are fun"));
