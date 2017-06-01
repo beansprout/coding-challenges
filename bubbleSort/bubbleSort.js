@@ -41,7 +41,7 @@ const bubbleSort = (arr) => {
       if (arr[i] > arr[i + 1]) {
         const temp = arr[i];
         arr[i] = arr[i + 1];
-        arr[i + 1] = temp;
+        arr[i + 1] = temp; temp = 2
         swapped = true;
       }
     }
@@ -51,7 +51,7 @@ const bubbleSort = (arr) => {
 
 
 // test cases
-// arr= [2, 1, 3, 8];
+console.log(arr= [2, 1, 3, 8]);
 //= > [1, 2, 3, 8]
 // let a = [8, 23, 1, 100, 23, 0];
 // // = > [0, 1, 8, 23, 23, 100]
