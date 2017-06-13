@@ -22,3 +22,20 @@
  * balancedBrackets(' const foo = () => { console.log('hi');'); // false
  *
  */
+const areComplementary = (a,b) => {
+    //if a = { and b = } true
+    // if a = [ and b = ] true
+    // if a = ( and b = ) true
+    // else false
+}
+
+// func balancedBrackets(str) {
+    // char = str.split('')
+    // brackets = [];
+    // let isBalanced = true
+    // let insideStr = false
+    // char.foreach(char) =>
+        // if char = '\'' or char = '"' and not iside string {return true
+        // if char = '\'' or char ='"' inside str {return false}
+        // if inside string  return;
+// }
