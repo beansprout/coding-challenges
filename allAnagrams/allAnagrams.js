@@ -11,3 +11,12 @@
   * var anagrams = allAnagrams('abc');
   * console.log(anagrams); // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
   */
+
+/* ideas: 
+- split into letters
+- each letter becomes a branch
+- resultN (where n = incremental number to keep track of ansers)
+- add a results array to push to
+- add a current result (accumulator) to push characters of current result
+
+*/
