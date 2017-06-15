@@ -37,7 +37,10 @@ const getLength = (arr, cb) => {
 getLength(foods, (length) => {
   console.log(`The length of the array is ${length}.`);
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e3ebd20a77ef7801b11e6a1d2b040d745f339d2
 
 // Write a function called last which passes the last item of the array into the callback
 

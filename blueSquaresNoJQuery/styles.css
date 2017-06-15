@@ -4,8 +4,19 @@ body {
 
 div {
   background-color: red;
+<<<<<<< HEAD
   margin: 15px;
   height: 100px;
   width: 100px;
 
 }
+=======
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.blue {
+  background-color: blue;
+}
+>>>>>>> 9e3ebd20a77ef7801b11e6a1d2b040d745f339d2
