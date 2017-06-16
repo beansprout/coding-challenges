@@ -24,6 +24,60 @@
 
 // NPC should be a general class for a non-player character in the game.
 // Level 1 (Top Level)
+//ES5
+function NPC(options) {
+    this.hp = options.hp;
+    this.strength = options.strength;
+    this.speed = options.speed;
+}
+
+NPC.prototype.destroy = function() {
+    console.log('game object removed from game');
+}
+
+// Level 2
+
+function Humanoid(options) {
+    NPC.call(this, {
+        hp: options.hp,
+        strength: options.strength,
+        speed: options.speed,
+    });
+}
+
+Humanoid.prototype = Object.create(NPC);
+
+Humanoid.prototype.jump = function() {
+    console.log('humanoid jumped!');
+};
+
+// Level 3
+function Elf(options) {
+    Humanoid.call(this, {
+        hp: options.hp,
+        strength = options.strength,
+        speed: options.speed,
+    });
+    this.clan = options.clan;
+};
+
+Elf.prototype = Object.create(Humanoid.prototype);
+Elf.prototype.sayHello = function( {
+    console.log(this.name + ' says hello in ' + this.language);
+});
+
+// Level 3 (peer of elf)
+function Orc(options) {
+    Humanoid.call(this, options), // passes down all Humanid options to Orc
+    this.clan = options.clan;
+};
+
+var Jimbo = new Elf({
+    hp: 150;
+    strength
+})
+
+//ES6
  class NPC {
      constructor(
          hp, 
