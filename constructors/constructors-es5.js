@@ -1,4 +1,4 @@
-//solution es5
+//solution es5 Lecture Example
 function NPC(options) {
   this.hp = options.hp;
   this.strength = options.strength;
