@@ -38,3 +38,19 @@
  *
  *
  */
+const async = require( 'async' );
+
+function taskA(cb) {
+  setTimeout( function(time) {
+    console.log( 'winner winner chicken dinner' )
+  }, 
+  200 )};
+
+taskA(console.log("I'm running task A! Run, run, run..."));
+
+  const taskB = ( callBack ) ) => {
+  console.log( "I'm running task B! I'm faster than A! Run, run, run..." );
+  return callBack;
+};
+const tasks = []
+const parallel = ( tasks, doneCallback );
