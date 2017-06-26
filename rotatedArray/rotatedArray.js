@@ -16,4 +16,4 @@
  */
 // strategy: 
 // array - convert to object using index as key
-// use 1
+// 
